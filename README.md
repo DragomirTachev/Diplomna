@@ -1,1 +1,1 @@
-# Diplomna
+# Be-the-king-of-Bulgaria

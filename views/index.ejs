@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dimplomna</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  </head>
+  <body>
+
+    <div class="container">
+      <svg width="900px" height="600px"></svg>
+      <div id="nav">
+         <input type="text" id="value_of_input" />
+         <button id="desiredLevelBTN">GO !</button>
+      </div>
+      <div class="sideContainer">
+        <div class="curval tabs">
+          <p class="middler">
+            Current Water Level:
+          </p>
+          <span id=valueCur>0%</span>
+        </div>
+        <div class="tabs">
+          <p class="middler">
+            Last Known Water Level:
+          </p>
+          <span id="lastValContainer">75%</span>
+        </div>
+
+       </div>
+
+    </div>
+
+
+
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/d3.js"></script>
+    <script src="/javascripts/main.js"></script>
+
+  </body>
+</html>

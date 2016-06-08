@@ -1,0 +1,83 @@
+svg {
+    margin:auto;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-color:rgb(150,150,150);
+    transform:scale(1.0);
+}
+body {
+    background-color:black;
+}
+
+#nav {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+    text-align:center;
+    background-color:grey;
+    height:46px;
+}
+#value_of_input {
+    height:80%;
+    width:500px;
+    font-size:29px;
+    font-weight:bold;
+    text-align:center;
+}
+
+#desiredLevelBTN {
+    height:40px;
+    width:120px;
+    margin-top:-100px;
+    display:inline-block;
+
+}
+
+.sideContainer {
+    position:absolute;
+    left:18%;
+    bottom:10%;
+    width:20%;
+    height:60%;
+    background-color:black;
+    border-radius:10px;
+    padding:0.3%;
+    overflow:hidden;
+}
+
+.tabs {
+    width:100%;
+    height:47%;
+    margin-bottom:8%;
+    background-color:lime;
+    text-align: center;
+    border-radius:10px;
+}
+
+.middler {
+    text-align: center;
+    margin-top:0;
+    text-decoration: underline;
+}
+
+.tabs > span, .tabs > p {
+    font-size:34px;
+}
+
+.tabs:last-of-type {
+    margin-bottom:0;
+}
+
+#valueCur {
+    color:black;
+    font-weight: bold;
+}
+
+#lastValContainer {
+    font-weight: bold;
+}
